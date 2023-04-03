@@ -1,0 +1,26 @@
+%flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+%center {
+	top: 50%;
+	left: 50%;
+	@include transform(translate(-50%, -50%));
+	position: absolute;
+	content: "";
+}
+.pt-25 {
+	padding-top: 25px;
+}
+.pb-25 {
+	padding-bottom: 25px;
+}
+.pt-50 {
+	padding-top: 50px;
+}
+.pb-50 {
+	padding-bottom: 50px;
+}
+.py-25 {
+	padding: 25px 0;
+}

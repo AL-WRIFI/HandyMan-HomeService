@@ -1,0 +1,72 @@
+.bg--body {
+	background-color: var(--body-bg) !important;
+}
+.bg--section {
+	background-color: var(--section-bg) !important;
+}
+
+.btn--base,
+.badge--base,
+.bg--base {
+	background-color: var(--base-clr) !important;
+	border-color: var(--base-clr) !important;
+}
+.btn--title,
+.badge--title,
+.bg--title {
+	background-color: var(--title-clr) !important;
+	border-color: var(--title-clr) !important;
+}
+.text--primary {
+	color: $primary-color !important;
+}
+.text--secondary {
+	color: $secondary-color !important;
+}
+
+.text--success {
+	color: $success-color !important;
+}
+
+.text--danger {
+	color: $danger-color !important;
+}
+
+.text--warning {
+	color: $warning-color !important;
+}
+
+.text--info {
+	color: $info-color !important;
+}
+
+.text--dark {
+	color: $dark-color !important;
+}
+
+.text--white {
+	color: $white !important;
+	p,
+	ul li,
+	ul li a,
+	span {
+		color: $light-color;
+	}
+}
+
+.text--black {
+	color: $black !important;
+}
+
+.text--body {
+	color: var(--body-clr) !important;
+}
+.text--base {
+	color: var(--base-clr) !important;
+}
+.text--btn {
+	color: var(--btn-clr) !important;
+}
+.text--title {
+	color: var(--title-clr) !important;
+}

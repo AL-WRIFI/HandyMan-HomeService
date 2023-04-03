@@ -1,0 +1,108 @@
+$bootstrap-sass-asset-helper: false !default;
+
+$success-color: #0ead69;
+$secondary-color: #668799;
+$danger-color: #d90429;
+$warning-color: #ee9b00;
+$info-color: #00b4d8;
+$primary-color: #0c67a3;
+$ash-color: #fafafa;
+$white: #fff;
+$lallu-color: #e883ae;
+$dark-color: #192a56;
+$dark-bg: #131b32;
+$light-color: #daddff;
+$black: #000;
+$section-bg-2: #fafafa;
+$whatsapp: #25d366;
+$facebook: #3b5998;
+$twitter: #55acee;
+$linkedin: #007bb5;
+$pinterest: #007bb5;
+$skype: #2fb7df;
+$youtube: #cd201f;
+$google: #dd4b39;
+$camera: #e4405f;
+$instagram: #e4405f;
+$tumblr: #34465d;
+$behance: #1769ff;
+$star: #e9ba17;
+$green: #0be881;
+$green-h: #0fbcf9;
+$red: #f53b57;
+$yellow: #dec32b;
+$nell: #212fb4;
+$navy: #d8e0f3;
+$placeholder: #a1a1a2;
+$name-dec: #3f485d;
+$futbol: #db3776;
+$vimeo: #1ab7ea;
+$dribble: #ea4c89;
+
+$transition: all ease 0.3s;
+
+:root {
+	--base-clr: #0461a5;
+	--base-rgb: 4, 97, 165;
+	--btn-clr: #0461a5;
+	--btn-rgb: 4, 97, 165;
+	--base-title: #0461a5;
+	--base-white: #0461a5;
+	--body-clr: #18191b;
+	--light-clr: #ded6ff;
+	--title-clr: #18191b;
+	--title-rgb: 24, 25, 27;
+	--body-bg: #fcfcfc;
+	--body-bg-rgb: 252, 252, 252;
+	--section-bg: #ffffff;
+	--section-bg-2: #ffffff;
+	--section-light: #f3f9ff;
+	--dark-clr: #00447a;
+	--dark-rgb: 0, 68, 122;
+	--white-clr: #ffffff;
+	--white-rgb: 255, 255, 255;
+	--footer: #001f35;
+	--footer-bottom: #dbf1ff;
+
+	--primary-clr: #0c67a3;
+	--primary-rgb: 12, 103, 163;
+	--border-clr: #eeeeee;
+	--border-light: #e5e5e5;
+	--border-light-only: #e5e5e5;
+	--border-dark: #302474;
+	--border-dark-only: transparent;
+	--header-bg: rgba(227, 242, 252, 0.95);
+
+	--heading-fonts: "Helvetica", sans-serif;
+	--body-fonts: "Roboto", sans-serif;
+	--base-shadow-sm: 0 0 1px var(--base-clr), 0 0 3px var(--base-clr);
+	--base-shadow: 0 0 1px var(--base-clr), 0 0 2px var(--base-clr),
+		0 0 3px var(--base-clr), 0 0 5px var(--base-clr), 0 0 7px var(--base-clr);
+	--shadow: 0 0 5px rgba(var(--title-rgb), 0.2);
+}
+
+.dark-theme {
+	--base-clr: #0093ff;
+	--btn-rgb: 4, 97, 165;
+	--btn-clr: #0461a5;
+	--base-rgb: 0, 147, 255;
+	--base-title: #98d3ff;
+	--base-white: #fff;
+	--body-clr: #a3bdd0;
+	--title-clr: #98d3ff;
+	--title-rgb: 152, 211, 255;
+	--body-bg: #121213;
+	--body-bg-rgb: 18, 18, 19;
+	--section-bg: rgba(17, 32, 43, 0.6);
+	--section-bg-2: #141a20;
+	--dark-clr: #142120;
+	--dark-rgb: 20, 33, 32;
+	--white-clr: #ffffff;
+	--white-rgb: 255, 255, 255;
+	--border-clr: #283c40;
+	--border-dark: #283c40;
+	--border-dark-only: #283c40;
+	--header-bg: #11202be6;
+	--footer: #001f35;
+	--footer-bottom: #111a21;
+}
